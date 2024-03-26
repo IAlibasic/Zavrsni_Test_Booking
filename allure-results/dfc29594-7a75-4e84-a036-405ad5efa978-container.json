@@ -1,0 +1,1 @@
+{"uuid":"dfc29594-7a75-4e84-a036-405ad5efa978","name":"ZavrsniTestNG.tearDown","children":["3d173f5c-d95a-4010-bab1-84f22b925274"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1711188714510,"stop":1711188718921}],"start":1711188714508,"stop":1711188718921}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking" parallel="tests" thread-count="1">
+
+    <test name="test 1">
+        <parameter name="place" value="Kopaonik"></parameter>
+        <parameter name="check_in" value="2024-05-19"></parameter>
+        <parameter name="check_out" value="2024-05-25"></parameter>
+        <parameter name="adults" value="0"></parameter>
+        <parameter name="children" value="0"></parameter>
+        <parameter name="child_years_old" value="1 year old"></parameter>
+        <parameter name="rooms" value="1"></parameter>
+        <classes>
+            <class name="ZavrsniTestNG"></class>
+        </classes>
+    </test>
+    <test name="test 2">
+        <parameter name="place" value="Kopaonik"></parameter>
+        <parameter name="check_in" value="2024-06-10"></parameter>
+        <parameter name="check_out" value="2024-06-20"></parameter>
+        <parameter name="adults" value="1"></parameter>
+        <parameter name="children" value="1"></parameter>
+        <parameter name="child_years_old" value="1 year old"></parameter>
+        <parameter name="rooms" value="2"></parameter>
+        <classes>
+            <class name="ZavrsniTestNG"></class>
+        </classes>
+    </test>
+    <test name="test 3">
+        <parameter name="place" value="Kopaonik"></parameter>
+        <parameter name="check_in" value="2024-07-09"></parameter>
+        <parameter name="check_out" value="2024-07-12"></parameter>
+        <parameter name="adults" value="2"></parameter>
+        <parameter name="children" value="0"></parameter>
+        <parameter name="child_years_old" value="1 year old"></parameter>
+        <parameter name="rooms" value="1"></parameter>
+        <classes>
+            <class name="ZavrsniTestNG"></class>
+        </classes>
+    </test>
+    <test name="test 4">
+        <parameter name="place" value="Kopaonik"></parameter>
+        <parameter name="check_in" value="2024-08-13"></parameter>
+        <parameter name="check_out" value="2024-08-16"></parameter>
+        <parameter name="adults" value="0"></parameter>
+        <parameter name="children" value="1"></parameter>
+        <parameter name="child_years_old" value="14 years old"></parameter>
+        <parameter name="rooms" value="1"></parameter>
+        <classes>
+            <class name="ZavrsniTestNG"></class>
+        </classes>
+    </test>
+    <test name="test 5">
+        <parameter name="place" value="Kopaonik"></parameter>
+        <parameter name="check_in" value="2024-11-19"></parameter>
+        <parameter name="check_out" value="2024-11-25"></parameter>
+        <parameter name="adults" value="0"></parameter>
+        <parameter name="children" value="1"></parameter>
+        <parameter name="child_years_old" value="10 years old"></parameter>
+        <parameter name="rooms" value="1"></parameter>
+        <classes>
+            <class name="ZavrsniTestNG"></class>
+        </classes>
+    </test>
+</suite>

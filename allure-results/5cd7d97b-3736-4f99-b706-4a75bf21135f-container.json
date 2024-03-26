@@ -1,0 +1,1 @@
+{"uuid":"5cd7d97b-3736-4f99-b706-4a75bf21135f","name":"ZavrsniTestNG.setup","children":["0edc4bf6-0f87-4993-a319-1b7bb4e648d5"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710680283342,"stop":1710680294734}],"afters":[],"start":1710680283340,"stop":1710680294738}
